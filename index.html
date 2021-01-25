@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>PRÁTICA de DESENVOLVIMENTO WEB – HTML + CSS</title>
+</head>
+<body>
+        <header>
+            <h2>Projeto adaptado - Des Web</h2>
+            <p>Exemplo de formulário de pesquisa (Survey)</p>
+        </header>
+        <div class="container">
+            <form class="contained-form">
+                <label for="name" class="labels general-elements">Nome</label>
+                <input type="text" class="input-text general-elements" name="name" id="name" placeholder="Coloque seu nome..." required>
+                <label for="email" class="labels general-elements">Email</label>
+                <input type="text" class="input-text general-elements" name="email" id="email" placeholder="Coloque o seu Email..." required> 
+                <label for="age" class="labels general-elements">Idade<small> (opcional)</small></label>
+                <input type="text" class="input-text general-elements" name="age" id="age" placeholder="Idade">
+                <label for="state" class="labels general-elements">Qual opção melhor descreve o seu estado atual?</label>
+                <select name="state" id="state" class="input-text general-elements">
+                    <option selected disabled>Selecione a ocupação</option>
+                    <option value="student">Estudante</option>
+                    <option value="clt">CLT</option>
+                    <option value="dont say">Prefiro não dizer</option>
+                    <option value="other">Outro</option>
+                </select>
+                <label class="labels general-elements">Você recomendaria este projeto?</label>
+                    <div class="bookmarks general-elements">
+                        <input type="radio" name="recommendation" id="recommendation-1" value="certeza">
+                        <label for="recommendation-1" class="labels">Com certeza!</label>
+                    </div>
+                    <div class="bookmarks general-elements">
+                        <input type="radio" name="recommendation" id="recommendation-2" value="talvez">
+                        <label for="recommendation-2" class="labels">Talvez</label>
+                    </div>
+                    <div class="bookmarks general-elements">
+                        <input type="radio" name="recommendation" id="recommendation-3" value="nao">
+                        <label for="recommendation-3" class="labels">Não sei</label>
+                    </div>
+                <label class="labels general-elements label-check-main">O que você gostaria de melhorar?<small> (Selecione quantas quiser.)</small></label>
+                    <div class="bookmarks general-elements">
+                        <input type="checkbox" name="improve" id="improve-1" value="more-time">
+                        <label for="improve-1" class="labels">ter mais tempo para estudar</label>
+                    </div>
+                    <div class="bookmarks general-elements">
+                        <input type="checkbox" name="improve" id="improve-2" value="study-like">
+                        <label for="improve-2" class="labels">Estudar mais o que gosto</label>
+                    </div>
+                    <div class="bookmarks general-elements">
+                        <input type="checkbox" name="improve" id="improve-3" value="project-management">
+                        <label for="improve-3" class="labels">Gêrencia de projetos</label>
+                    </div>
+                    <div class="bookmarks general-elements">
+                        <input type="checkbox" name="improve" id="improve-4" value="node">
+                        <label for="improve-4" class="labels">NodeJS</label>
+                    </div>
+                <label class="labels general-elements label-textarea">Algum comentário ou sugestão?</label>
+                <textarea class="input-textarea general-elements" name="suggestion" id="suggestion" cols="30" rows="7" placeholder="Insira seu comentário ou sugestão aqui..."></textarea>
+                <button type="submit" class="button-submit general-elements">Enviar</button>
+            </form>
+        </div>
+</body>
+</html>
