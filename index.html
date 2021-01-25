@@ -21,8 +21,8 @@
                 <label for="age" class="labels general-elements">Idade<small> (opcional)</small></label>
                 <input type="text" class="input-text general-elements" name="age" id="age" placeholder="Idade">
                 <label for="state" class="labels general-elements">Qual opção melhor descreve o seu estado atual?</label>
-                <select name="state" id="state" class="input-text general-elements">
-                    <option selected disabled>Selecione a ocupação</option>
+                <select name="state" id="state" class="input-text general-elements" required> 
+                    <option value="" selected disabled>Selecione a ocupação</option>
                     <option value="student">Estudante</option>
                     <option value="clt">CLT</option>
                     <option value="dont say">Prefiro não dizer</option>
@@ -30,15 +30,15 @@
                 </select>
                 <label class="labels general-elements">Você recomendaria este projeto?</label>
                     <div class="bookmarks general-elements">
-                        <input type="radio" name="recommendation" id="recommendation-1" value="certeza">
+                        <input type="radio" name="recommendation" id="recommendation-1" value="assurance" required>
                         <label for="recommendation-1" class="labels">Com certeza!</label>
                     </div>
                     <div class="bookmarks general-elements">
-                        <input type="radio" name="recommendation" id="recommendation-2" value="talvez">
+                        <input type="radio" name="recommendation" id="recommendation-2" value="perhaps">
                         <label for="recommendation-2" class="labels">Talvez</label>
                     </div>
                     <div class="bookmarks general-elements">
-                        <input type="radio" name="recommendation" id="recommendation-3" value="nao">
+                        <input type="radio" name="recommendation" id="recommendation-3" value="not-know">
                         <label for="recommendation-3" class="labels">Não sei</label>
                     </div>
                 <label class="labels general-elements label-check-main">O que você gostaria de melhorar?<small> (Selecione quantas quiser.)</small></label>
