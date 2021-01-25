@@ -8,7 +8,7 @@ body {
     background-color: #504F8D;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
-    background: linear-gradient(rgba(80, 79, 141, .80), rgba(80, 79, 141, .80)100%), url('/img/a.jpg');
+    background: linear-gradient(rgba(80, 79, 141, .80), rgba(80, 79, 141, .80)100%), url('../img/a.jpg');
     background-size: cover;
     background-position: center;
     height: 1120px;
