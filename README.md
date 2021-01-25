@@ -2,7 +2,7 @@
 <h3 align="center">Este repositório é composto do Projeto Prático: HTML + CSS de uma página de formulário</h3>
 <h4 align="center">Projeto referente a disciplina de Desenvolvimento Web 2020.2 do curso Redes de Computadores (UFC - Campus: Quixadá)</h4>
 
-## Clone Funcional Responsivo:desktop_computer: :computer: :iphone::
+## Página Funcional: :desktop_computer: :computer: :iphone::
 - [Página](https://des-web-form-page.netlify.app/)
 
 ## Tecnologias Usadas 🛠:
